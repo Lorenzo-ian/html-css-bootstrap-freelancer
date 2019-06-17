@@ -7,5 +7,108 @@
 
 .navbar {
     background-color: #2C3E50;
+    height: 100px;
+    padding-top: 20px;
 }
 
+.navbar-brand {
+    color: white;
+    font-size: 30px;
+}
+
+.navbar-brand:hover {
+    color: green;
+}
+
+.navbar-nav li a{
+    color: white;
+}
+
+
+.navbar-nav a:hover {
+    color: green;
+   
+}
+
+.white {
+    border: 1px solid white;
+}
+
+button:hover {
+    background-color: black;
+}
+
+/* SEZIONE PRIMO TITOLO E STAR */
+
+.container-fluid-green {
+    margin-top: 100px;
+    height: 750px;
+    background-color:#1ABC9C;
+    text-align: center;
+}
+
+.avatar {
+    height: 300px;
+    width: 300px;
+}
+
+.head_top {
+    margin-top: 140px;
+}
+
+.head_top h1 {
+    font-size: 65px;
+    color: #fff;
+}
+
+.star{
+    height: 48px;
+    display: block;
+}
+
+.divider-custom-line {
+    width: 100px;
+    height: 5px;
+    background-color: #fff;
+    display: inline-block;
+}
+
+
+.custom-star {  
+    display: inline-block;
+}
+
+.star h3 {
+    color: white;
+}
+
+/* SEZIONE IMMAGINI PAGINA */
+
+.container {
+    height: 500px;
+    text-align: center;
+}
+
+.image_head img {
+    height: 250px;
+    width: 350px;
+    border-radius: 2%;
+    display: inline-block;
+    margin: 10px;
+}
+
+.image_head {
+    height: 300px;
+    margin-top: 30px;
+}
+
+.divider-custom-line-image {
+    width: 100px;
+    height: 5px;
+    background-color: black;
+    display: inline-block;
+}
+
+.title_image h1 {
+    margin-top: 50px;
+}
